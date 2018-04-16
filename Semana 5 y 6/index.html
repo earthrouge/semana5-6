@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+	<html>
+
+		<head>
+
+			<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+			<title>Pine&sol;Apple</title>
+
+			<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+			<link rel="icon" href="img/favicon.png" type="image/png" sizes="32x32">
+
+			<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+			<link rel="stylesheet" href="styles.css">
+
+
+		</head>
+
+		<body>
+
+
+
+			<div class="parallax"></div>
+
+			<div class="center">Pine&sol;Apple</div>
+				
+				
+
+			
+				
+
+			<div style=" height: 75px; font-size: 18px; font-family: Arial; color: white;">
+
+				<!-- NAV BAR ORIGINAL
+				<nav>
+				
+					<ul>
+  					
+  						<li class="active"><a href="index.html">Home</a></li>
+  						<li><a href="index.html">FAQ</a></li>
+  						<li><a href="index.html">Contact</a></li>
+
+					</ul>
+
+				</nav> -->
+
+				<div id="navbar">
+					<a class="active" 
+					href="javascript:void(0)">Home</a>
+					<a href="javascript:void(0)">About</a>
+					<a href="javascript:void(0)">Contact</a>
+				</div>
+
+				<section>
+
+					<article>
+
+						<div  class="content" style=" height: 400px; font-size: 20px; font-family: Arial; color: #333; background-color: white;">
+
+							<section>
+
+								<h1 style="font-family: Oswald; float: left;">Pine</h1>
+
+								<p style="float: left;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+								<h2 style="font-family: Oswald; float: right;">Apple</h2>
+
+								<p style="float: right;"></p>
+
+
+
+							</section>
+
+						</div>
+
+					</article>
+
+				<div class="parallax"></div>
+				
+				
+			</div>
+
+			<div class="footer"><h3 style="background-color: #333; color: white; font-family: Baskerville Oldface;">All rights reserved.</h3></div>
+
+
+			<!-- NAV BAR ORIGINAL GOES IN STYLE
+			ul {
+					list-style-type: none;
+					margin: 0;
+					padding: 0;
+					overflow: hidden;
+					background-color: #333;
+				}
+
+				li {
+					float: left;
+
+				}
+
+				li a {
+					display: block;
+					color: white;
+					text-align: center;
+					padding: 28px 32px;
+					text-decoration: none;
+				}
+
+				li a:hover {
+					background-color: white;
+					color: #333;
+				}
+
+				.active {
+					background-color: orange;
+				} -->
+
+			<script>
+				window.onscroll = function() {myFunction()};
+
+				var navbar = document.getElementById("navbar");
+				var sticky = navbar.offsetTop;
+
+				function myFunction() {
+			  if (window.pageYOffset >= sticky) {
+			    navbar.classList.add("sticky")
+			  } else {
+			    navbar.classList.remove("sticky");
+			  	}
+			   }
+			</script>
+
+			</script>	
+
+		</body>
+
+
+
+	</html>
